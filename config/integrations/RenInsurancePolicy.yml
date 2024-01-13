@@ -1,0 +1,131 @@
+policy_data:
+  policy:
+    onlinePayment: true
+    insCompanyName: АО «Группа Ренессанс Страхование»
+    product:
+      name: Коробочная Ипотека
+    date: '2021-07-16T00:00:00.000Z'
+    dateBeg: '2021-07-16T00:00:00.000Z'
+    dateEnd: '2022-07-15T00:00:00.000Z'
+    insurant:
+      type: ФЛ
+      physical:
+        lastName: Славный
+        firstName: Малый
+        birthDate: '1990-01-01T12:00:00.000Z'
+        email: email@email.em
+        phone: "+7 (999) 123-32-15"
+        sex: M
+        citizenship: Россия
+        document:
+          type: ПАСПОРТ_РФ
+          series: '1111'
+          number: '222222'
+          placeOfIssue: весной
+          dateOfIssue: '2020-05-18T12:00:00.000Z'
+          kodPodrazd: 123-379
+        factAddress:
+          country: Россия
+          region: Пермский
+          postIndex: 614520
+          addressText: 614520, Россия, Пермский край, Пермский р-н, с Култаево, ул.
+            Веселая, д. 15
+        isIP: 'false'
+    insuranceObjects:
+      objects:
+        - name: 'Объект страхования'
+          parameters: null
+          riskInfo:
+            risks:
+              - name: 'Страхование имущества'
+                insured: 'true'
+          alias: _DIOS_2
+        - name: Объект страхования
+          parameters:
+          riskInfo:
+            risks:
+              - name: Смерть
+                insured: 'true'
+          alias: _zastr1
+    insurantDocType: ПАСПОРТ_РФ
+    paymentsPlan:
+      payments:
+    parameters:
+      parameters:
+        - name: 'Название'
+          code: dogovor.adresImushestva.strana.name
+          type: Строка
+          stringValue: Россия
+        - name: Вид деятельности на текущем месте работы отсутствует в списке
+          code: dogovor.vidDeyatOtsutstvuet
+          type: Логический
+          boolValue: 'true'
+        - name: Страхователь подтверждает данные, указанные в Анкете о состоянии здоровья
+          code: dogovor.soglasieSAnketoi
+          type: Логический
+          boolValue: 'true'
+        - name: Доп.вопрос 1
+          code: dogovor.dopVopros1
+          type: Логический
+          boolValue: 'true'
+        - name: Валюта (спр)
+          code: dogovor.ipotechnDogovor.currency.code
+          type: Строка
+          stringValue: RUR
+        - name: Статус занятости Страхователя
+          code: dogovor.strahStatusZanatosti
+          type: Строка
+          stringValue: Работник по найму
+#        - name: Профессиональная деятельность
+#          code: dogovor.profDeyatelnost
+#          type: Строка
+#          stringValue: работа на кране
+        - name: Страховая стоимость объекта
+          code: dogovor.strahStoimostObjekta
+          type: Вещественный
+          decimalValue: 0
+        - name: Город выдачи кредита
+          code: dogovor.gorodVidachiKredita
+          type: Строка
+          stringValue: Екатеринбург
+        - name: Сумма кредита
+          code: dogovor.ipotechnDogovor.summaKredita
+          type: Вещественный
+          decimalValue: 2500000
+        #        - name: Номер
+        #          code: dogovor.ipotechnDogovor.nomer
+        #          type: Строка
+        #          stringValue: '01010101'
+        #        - name: Дата
+        #          code: dogovor.ipotechnDogovor.data
+        #          type: Дата
+        #          dateValue: '2020-11-15T12:00:00.000Z'
+        - name: БИК
+          code: dogovor.ipotechnDogovor.bank.subekt.bik
+          type: Строка
+          stringValue: '044525225'
+        - name: Вид скидки
+          code: dogovor.vidSkidki1
+          type: Строка
+          stringValue: Не применяется
+        - name: Размер скидки
+          code: dogovor.razmerSkidki1
+          type: Вещественный
+          decimalValue: 0
+        - name: Доп.вопрос 1
+          code: dogovor.dopVopros1
+          type: Логический
+          boolValue: 'true'
+        - name: Доп.вопрос 2
+          code: dogovor.dopVopros2
+          type: Логический
+          boolValue: 'true'
+        - name: Доп.вопрос 3
+          code: dogovor.dopVopros3
+          type: Логический
+          boolValue: 'true'
+        - name: Вопрос А01
+          code: dogovor.voprA01
+          type: Логический
+          boolValue: 'true'
+

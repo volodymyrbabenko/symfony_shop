@@ -1,0 +1,186 @@
+estimate_data:
+  productType: Страхование имущества
+  policyCalc:
+    currCode: RUR
+    date: '2022-11-09T13:30:36.823Z'
+    dateBeg: '2022-11-10T13:30:36.824Z'
+    dateEnd: '2025-11-08T13:30:36.824Z'
+    onlinePayment: true
+    periodOfInsurance: 12
+    product:
+      name: Ипотека
+    insCompanyName: АО «Группа Ренессанс Страхование»
+    insuranceObjects:
+      objects:
+#        - alias: _ON1
+#          name: Объект страхования
+#          parameters:
+#          riskInfo:
+#            risks:
+#              - insured: 'true'
+#                name: Имущество
+#              - insured: 'true'
+#                name: Титул
+#        - alias: _zastr1
+#          name: Объект страхования
+#          parameters:
+#          riskInfo:
+#            risks:
+#              - insured: 'true'
+#                name: Страхование от несчастных случаев и болезней
+    insurant:
+      physical:
+        birthDate: '2000-01-01T12:00:00.000Z'
+        citizenship: Россия
+      type: ФЛ
+    parameters:
+      parameters:
+        - code: dogovor.raschetPremii
+          name: Расчет премии
+          stringValue: Предварительный расчет
+          type: Строка
+#        - code: dogovor.rinokNedvON1
+#          name: 'Предмет ипотеки 1: Рынок недвижимости'
+#          stringValue: Вторичный
+#          type: Строка
+#        - code: dogovor.zastr1VozrastVh
+#          intValue: 41
+#          name: 'Застрахованный 1: Возраст'
+#          type: Целое
+#        - code: dogovor.OSZ
+#          decimalValue: 200000
+#          name: Остаток ссудной задолженности
+#          type: Вещественный
+        - code: dogovor.procentUvelicOSZ
+          name: Величина СС от ОСЗ
+          stringValue: 100% + ставка по КД
+          type: Строка
+#        - code: dogovor.srokStrahTitul
+#          intValue: 12
+#          name: Срок страхования по Титулу
+#          type: Целое
+        - code: dogovor.ostatochniiSrokKredita
+          intValue: 60
+          name: Остаточный срок кредита
+          type: Целое
+
+#        - boolValue: 'true'
+#          code: dogovor.zastr1StrahovatSmertNSiB
+#          name: 'Застрахованный 1: Страховать Смерть НСиБ'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.zastr1StrahovatInvalidnostNSiB
+#          name: 'Застрахованный 1: Страховать Инвалидность I, II гр НСиБ'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatPrekrPravaON1
+#          name: 'Предмет ипотеки 1: Страховать Прекращение права собственности'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatNaezdON1
+#          name: 'Предмет ипотеки 1: Страховать риск Наезд'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatKonstruktivON1
+#          name: 'Предмет ипотеки 1: Страховать Конструктивные элементы'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatPadenieLetAppON1
+#          name: 'Предмет ипотеки 1: Страховать риск Падение летательных аппаратов'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatProtDeistviyaON1
+#          name: 'Предмет ипотеки 1: Страховать риск Противоправные действия 3-х лиц'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatStihBedstviyaON1
+#          name: 'Предмет ипотеки 1: Страховать риск Стихийные бедствия'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatVzrivON1
+#          name: 'Предмет ипотеки 1: Страховать риск Взрыв'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatZalivON1
+#          name: 'Предмет ипотеки 1: Страховать риск Залив'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.strahovatOgranichPravaON1
+#          name: 'Предмет ипотеки 1: Страховать Ограничение или обременение права собственности'
+#          type: Логический
+        - code: dogovor.ipotechnDogovor.stavkaVProcentah
+          decimalValue: 10
+          name: Ставка в процентах
+          type: Вещественный
+#        - boolValue: 'true'
+#          code: dogovor.ON1otsutstvNetipUsImush
+#          name: 'Предмет ипотеки 1: Отсутствуют нетиповые условия, блокирующие принятие на страхование Имущества'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.otsutstvNetipUslAndTitulON1
+#          name: 'Предмет ипотеки 1: Отсутствуют нетиповые условия по Титульному страхованию, требующие согласования с отделом Андеррайтинга'
+#          type: Логический
+#        - boolValue: 'true'
+#          code: dogovor.otsutstvNetipUslTitulON1
+#          name: 'Предмет ипотеки 1: Отсутствуют нетиповые условия, блокирующие принятие на страхование Титула'
+#          type: Логический
+#        - code: dogovor.zastr1.dolyaOsz
+#          decimalValue: 50
+#          name: 'Застрахованный 1: % страхования от ОСЗ'
+#          type: Вещественный
+#        - code: dogovor.ON1.stoimRynok
+#          decimalValue: 1000000
+#          name: 'Предмет ипотеки 1: Рыночная стоимость'
+#          type: Вещественный
+#        - code: dogovor.zastr1.subekt.fl.dataRogd
+#          dateValue: '2000-01-01T12:00:00.000Z'
+#          name: 'Застрахованный 1: Дата рождения'
+#          type: Дата
+#        - code: dogovor.zastr1.subekt.fl.pol
+#          name: 'Застрахованный 1: Пол'
+#          stringValue: муж.
+#          type: Строка
+        - code: dogovor.ipotechnDogovor.bank.subekt.bik
+          name: БИК
+          stringValue: '040349758'
+          type: Строка
+        - code: dogovor.tipSdelki
+          name: Тип сделки
+          stringValue: Новый полис
+          type: Строка
+#        - code: dogovor.kolichZastrah
+#          intValue: 1
+#          name: Количество застрахованных
+#          type: Целое
+#        - code: dogovor.kolichON
+#          intValue: 1
+#          name: Количество объектов недвижимости
+#          type: Целое
+        - name: Количество болезней
+          code: dogovor.kolichBolezneiZastrah1
+          type: Целое
+          intValue: 1
+        - name: Количество видов физической активности
+          code: dogovor.kolichFizActZastrah1
+          type: Целое
+          intValue: 1
+#        - name: 'Застрахованный 1: является ПДЛ'
+#          code: dogovor.zastr1PDL
+#          type: Строка
+#          stringValue: Нет
+#        - name: 'Застрахованный 1: является родственником ПДЛ'
+#          code: dogovor.zastr1RodstvennikPDL
+#          type: Строка
+#          stringValue: Нет
+        - name: Сред страхователей есть ПДЛ
+          code: dogovor.strahovateliPDL
+          type: Строка
+          stringValue: Нет
+        - name: Сред страхователей есть родственник ПДЛ
+          code: dogovor.strahhovateliRodstvennikPDL
+          type: Строка
+          stringValue: Нет
+        - name: Город выдачи кредита
+          code: dogovor.gorodVidachiKredita
+          type: Строка
+          stringValue: Москва

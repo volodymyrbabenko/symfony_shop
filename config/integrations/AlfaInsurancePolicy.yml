@@ -1,0 +1,105 @@
+policy_data:
+  productType: 'Страхование имущества'
+  policyCalc:
+    insCompanyName: 'АО «Группа Ренессанс Страхование»'
+    product:
+      name: 'Коробочная Ипотека'
+    date: '2021-07-16T00:00:00.000Z'
+    dateBeg: '2021-07-16T00:00:00.000Z'
+    dateEnd: '2022-07-15T00:00:00.000Z'
+    insurant:
+      type: ФЛ
+      physical:
+        birthDate: '1990-01-01T12:00:00.000Z'
+    insuranceObjects:
+      objects:
+        - name: 'Объект страхования'
+          parameters: null
+          riskInfo:
+            risks:
+              - name: Смерть
+                insured: 'true'
+          alias: _zastr1
+    parameters:
+      parameters:
+        - name: 'Вид деятельности на текущем месте работы отсутствует в списке'
+          code: dogovor.vidDeyatOtsutstvuet
+          type: Логический
+          boolValue: 'true'
+        - name: 'Валюта (спр)'
+          code: dogovor.ipotechnDogovor.currency.code
+          type: Строка
+          stringValue: RUR
+        - name: 'Статус занятости Страхователя'
+          code: dogovor.strahStatusZanatosti
+          type: Строка
+          stringValue: 'Собственник бизнеса, Индивидуальный предприниматель'
+        - name: 'Профессиональная деятельность'
+          code: dogovor.profDeyatelnost
+          type: Строка
+          stringValue: 'работа в водной акватории или под водой'
+        - name: 'Застрахованный является Страхователем'
+          code: dogovor.zastrahYavlstrah
+          type: Логический
+          boolValue: 'true'
+        - name: 'Занимается экстремальными видами спорта из списка'
+          code: dogovor.extremSport
+          type: Строка
+          stringValue: нет
+        - name: 'Город выдачи кредита'
+          code: dogovor.gorodVidachiKredita
+          type: Строка
+          stringValue: Екатеринбург
+        - name: 'Сумма кредита'
+          code: dogovor.ipotechnDogovor.summaKredita
+          type: Вещественный
+          decimalValue: 2500000
+        - name: Дата
+          code: dogovor.ipotechnDogovor.data
+          type: Дата
+          dateValue: '2020-08-03T12:00:00.000Z'
+        - name: БИК
+          code: dogovor.ipotechnDogovor.bank.subekt.bik
+          type: Строка
+          stringValue: '99999999999'
+        - name: Вес
+          code: dogovor.zastr1.medPokazateli.ves
+          type: Вещественный
+          decimalValue: 80
+        - name: 'Дата рождения'
+          code: dogovor.zastr1.fl.dataRogd
+          type: Дата
+          dateValue: '1990-01-01T12:00:00.000Z'
+        - name: Пол
+          code: dogovor.zastr1.fl.pol
+          type: Строка
+          stringValue: муж.
+        - name: 'Нижнее давление'
+          code: dogovor.zastr1.medPokazateli.nignDavlen
+          type: Целое
+          intValue: 80
+        - name: 'Верхнее давление'
+          code: dogovor.zastr1.medPokazateli.verhnDavlen
+          type: Целое
+          intValue: 120
+        - name: Рост
+          code: dogovor.zastr1.medPokazateli.rost
+          type: Вещественный
+          decimalValue: 180
+        - name: 'Вид скидки'
+          code: dogovor.vidSkidki1
+          type: Строка
+          stringValue: 'Не применяется'
+        - name: 'Размер скидки'
+          code: dogovor.razmerSkidki1
+          type: Вещественный
+          decimalValue: 0
+        - name: 'Надбавка агента'
+          code: dogovor.nadbavkaAgenta
+          type: Вещественный
+          decimalValue: 10
+        - name: 'Источник обращения'
+          code: dogovor.istochnikObrashcheniya
+          type: Строка
+          stringValue: банк
+

@@ -1,0 +1,54 @@
+calculate_data:
+  agent:
+    agent_contract_id: 7740921
+    department_id: 53225558
+    channel_sale_id: 20075
+    manager_id: 175936147
+    signer_id: 874189179
+  agent_email: kama-chelny@mail.ru
+  insuranceCity:
+    fiasId: 1f155822-2da7-4035-95fc-14fcc0c26ab9
+  begin_date: '2021-09-29'
+  end_date: '2021-09-29'
+  insurance_objects:
+  insurance_program: Базовая
+  insurer:
+    birth_date: '1995-07-14'
+    email: vasilevich@gmail.com
+    fact_address:
+      fias_id: ba71ccc4-32df-4870-ab7e-b80864a052a1
+      text: г Москва, ул Симоновский Вал, д 10, кв 6
+    first_name: Семен
+    last_name: Иванов
+
+    middle_name: Васильевич
+    passport:
+      issue_unit_code: 234-234
+      issue_date: '2020-02-12'
+      issue_place: Замоскворецкий РОВД, г. Москва
+      number: '212134'
+      reg_address:
+        fias_id: ba71ccc4-32df-4870-ab7e-b80864a052a1
+        text: г Москва, ул Симоновский Вал, д 10, кв 6
+      series: '3242'
+    phone_number: "+7(910) 728-42-80"
+    resident: true
+    sex: MALE
+  mortgage_agreement:
+    amount: '3000000'
+    bank:
+      bic: '044525225'
+      name: СБЕРБАНК РОССИИ
+    city: Москва
+    date: '2021-09-29'
+    number: '1234567'
+    rate: '8.9'
+    term_in_month: 12
+#  prev_insurance_company: АО РОСГОССТРАХ
+#  previous_number: '1234567'
+  risk_types:
+  sign_date: '2021-09-29'
+
+
+
+

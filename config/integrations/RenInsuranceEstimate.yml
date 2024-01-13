@@ -1,0 +1,97 @@
+estimate_data:
+  productType: 'Страхование имущества'
+  policyCalc:
+    #    discountAV: 10
+    #    skidkaAvVProc: true
+    #    discountUnderwriter: 10
+    #    onlinePayment: true
+    insCompanyName: 'АО «Группа Ренессанс Страхование»'
+    product:
+      name: 'Коробочная Ипотека'
+    date: '2021-07-16T00:00:00.000Z'
+    dateBeg: '2021-07-16T00:00:00.000Z'
+    dateEnd: '2022-07-15T00:00:00.000Z'
+    insurant:
+      type: ФЛ
+      physical:
+        birthDate: '1990-01-01T12:00:00.000Z'
+    insuranceObjects:
+      objects:
+        - name: 'Объект страхования'
+          parameters: null
+          riskInfo:
+            risks:
+              - name: 'Страхование имущества'
+                insured: 'true'
+          alias: _DIOS_2
+        - name: Объект страхования
+          parameters: null
+          riskInfo:
+            risks:
+              - name: 'Смерть'
+                insured: 'true'
+          alias: _zastr1
+    parameters:
+      parameters:
+        - name: Профессиональная деятельность
+          code: dogovor.profDeyatelnost
+          type: Строка
+          stringValue: null
+        - name: 'Вид деятельности на текущем месте работы отсутствует в списке'
+          code: dogovor.vidDeyatOtsutstvuet
+          type: Логический
+          boolValue: 'true'
+        - name: 'Валюта (спр)'
+          code: dogovor.ipotechnDogovor.currency.code
+          type: Строка
+          stringValue: RUR
+        - name: 'Статус занятости Страхователя'
+          code: dogovor.strahStatusZanatosti
+          type: Строка
+          stringValue: 'Работник по найму'
+
+        - name: 'Условия труда связаны с повышенным риском для жизни и здоровья'
+          code: dogovor.usltrudaSvyazSRiskom
+          type: Строка
+          stringValue: 'нет'
+        - name: 'Наличие газосодержащих коммуникаций'
+          code: dogovor.nalichieGazKom
+          type: Логический
+          boolValue: false
+
+        - name: 'Город выдачи кредита'
+          code: dogovor.gorodVidachiKredita
+          type: Строка
+          stringValue: Екатеринбург
+        - name: 'Сумма кредита'
+          code: dogovor.ipotechnDogovor.summaKredita
+          type: Вещественный
+          decimalValue: 2500000
+        - name: БИК
+          code: dogovor.ipotechnDogovor.bank.subekt.bik
+          type: Строка
+          stringValue: '99999999999'
+        - name: 'Вид скидки'
+          code: dogovor.vidSkidki1
+          type: Строка
+          stringValue: 'Не применяется'
+        - name: 'Размер скидки'
+          code: dogovor.razmerSkidki1
+          type: Вещественный
+          decimalValue: 0
+        - name: 'Надбавка агента'
+          code: dogovor.nadbavkaAgenta
+          type: Вещественный
+          decimalValue: 0
+        - name: 'Источник обращения'
+          code: dogovor.istochnikObrashcheniya
+          type: Строка
+          stringValue: банк
+        - name: 'Занимается экстремальными видами спорта из списка'
+          code: dogovor.extremSport
+          type: Строка
+          stringValue: нет
+#        - name: Вопрос А01
+#          code: dogovor.voprA01
+#          type: Логический
+#          boolValue: 'true'

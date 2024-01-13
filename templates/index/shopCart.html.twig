@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Cart{% endblock %}
+
+{% block body %}
+    <script>
+        function ajaxChange(id, count) {
+            $.ajax({
+                url: '/shop/cart/change',
+                dataType: 'json',
+                type: 'post',
+                contentType: 'application/json',
+                data: JSON.stringify({"id": id, "count": parseInt(count)}),
+                processData: false,
+                success: function (data, textStatus, jQxhr) {
+                },
+                error: function (jqXhr, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                }
+            });
+        }
+
+        function recalculateAmount(el) {
+            let amount = 0;
+            $('.sum-per-card').each(function () {
+                amount += parseInt($(this).text());
+            });
+            $('.cart-amount').text(amount);
+        }
+
+        function recalculatePricePerCard(el) {
+            let count = parseInt($(el).attr('data-count'));
+            let price = parseInt($(el).attr('data-price'));
+            $(el).parents('.card-body').find('.sum-per-card').html(count * price);
+            recalculateAmount();
+        }
+
+
+    </script>
+    <div class="example-wrapper">
+        <h1>{{ title }}</h1>
+        <hr>
+
+        {% set sum = 0 %}
+        {% for item in items %}
+            <div class="col-md-12">
+                <div class="card mb-12 shadow-sm">
+                    <div class="card-body">
+                        <h4>
+                            {{ item.shopItem.title }}.
+                            Amount = <span id="amount">{{ item.count }}</span>
+                        </h4>
+                        <p>
+                            <a href="{{ path('shopCartPlus', {'id' : item.id}) }}" class="btn btn-success mt-2"
+                               style="width: 50px">+</a>
+                            <a href="{{ path('shopCartMinus', {'id' : item.id}) }}" class="btn btn-success mt-2"
+                               style="width: 50px">-</a>
+                            <a href="{{ path('shopCartDelete', {'id' : item.id}) }}" class="btn btn-danger mt-2"
+                               style="width: 75px">Delete</a>
+                        </p>
+                        <p>
+                            <a href="javascript:void(0)" data-id="{{ item.id }}" data-count="{{ item.count }}"
+                               data-price="{{ item.shopItem.price }}" class="item-plus btn btn-success mt-2"
+                               style="width: 100px">+ (Ajax)</a>
+                            <a href="javascript:void(0)" data-id="{{ item.id }}" data-count="{{ item.count }}"
+                               data-price="{{ item.shopItem.price }}" class="item-minus btn btn-success mt-2"
+                               style="width: 100px">- (Ajax)</a>
+
+                        </p>
+                        <p class="card-text">{{ item.shopItem.description }}</p>
+
+                        <h5>{{ item.shopItem.price }} euro</h5>
+                        {% set sum = sum + item.shopItem.price * item.count %}
+
+                        <div class="sum-per-card">{{ item.shopItem.price * item.count }}</div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <script>
+            $('.item-plus').click(function () {
+                let id = $(this).attr('data-id');
+                let count = $(this).attr('data-count');
+                count++;
+                ajaxChange(id, count);
+                $(this).parent().find('a').attr('data-count', count);
+                $(this).parents('.card-body').find('span#amount').html(count);
+                recalculatePricePerCard(this);
+            });
+
+            $('.item-minus').click(function (e) {
+                let id = $(this).attr('data-id');
+                let count = $(this).attr('data-count');
+                if(count == 1) {
+                    return;
+                }
+
+                count--;
+                ajaxChange(id, count);
+                console.log('ajaxChange count ' + count);
+                $(this).parent().find('a').attr('data-count', count);
+                $(this).parents('.card-body').find('span#amount').html(count);
+                recalculatePricePerCard(this);
+
+            });
+        </script>
+
+        <hr>
+        <h4><span class="cart-amount">{{ sum }}</span> euro</h4>
+        <a href="{{ path('shopOrder') }}" class="float-right btn btn-success mt-2">Checkout</a>
+
+    </div>
+{% endblock %}

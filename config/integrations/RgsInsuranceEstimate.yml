@@ -1,0 +1,99 @@
+estimate_data:
+  productType: 'Страхование имущества'
+  policyCalc:
+    #    discountAV: 10
+    #    skidkaAvVProc: true
+    #    discountUnderwriter: 10
+    #    onlinePayment: true
+    insCompanyName: 'ПАО СК «Росгосстрах»'
+    product:
+      name: 'Ипотека'
+    date: '2021-07-16T00:00:00.000Z'
+    dateBeg: '2021-07-16T00:00:00.000Z'
+    dateEnd: '2022-07-15T00:00:00.000Z'
+    insurant:
+      type: ФЛ
+      physical:
+        birthDate: '1990-01-01T12:00:00.000Z'
+    insuranceObjects:
+      objects:
+        - name: Объект страхования
+          riskInfo:
+            risks:
+              - name: 'Страхование от несчастных случаев и болезней'
+                insured: 'true'
+          alias: _zastr1
+        - name: 'Объект страхования'
+          riskInfo:
+            risks:
+              - name: 'Имущество'
+                insured: 'true'
+          alias: _ON1
+    parameters:
+      parameters:
+        - name: 'Предмет ипотеки 1: Год постройки'
+          code: dogovor.ON1.svStroen.godPostr
+          type: Целое
+          intValue: 2015
+        - name: 'Валюта (спр)'
+          code: dogovor.ipotechnDogovor.currency.code
+          type: Строка
+          stringValue: RUR
+
+
+        - name: 'Остаток ссудной задолженности'
+          code: dogovor.OSZ
+          type: Вещественный
+          decimalValue: 2500000
+        - name: 'Дата ипотечного договора'
+          code: dogovor.ipotechnDogovor.data
+          type: Дата
+          dateValue: '2020-08-03T12:00:00.000Z'
+        - name: БИК
+          code: dogovor.ipotechnDogovor.bank.subekt.bik
+          type: Строка
+          stringValue: '99999999999'
+
+
+        - name: 'Надбавка агента'
+          code: dogovor.nadbavkaAgenta
+          type: Вещественный
+          decimalValue: 0
+
+        - name: 'Количество объектов недвижимости'
+          code: dogovor.kolichON
+          type: Целое
+          intValue: 1
+        - name: 'Количество застрахованных'
+          code: dogovor.kolichZastrah
+          type: Целое
+          intValue: 1
+
+        - name: Расчет премии
+          code: dogovor.raschetPremii
+          type: Строка
+          stringValue: Все параметры
+        - code: dogovor.tipON1
+          name: 'Предмет ипотеки 1: Тип объекта недвижимости'
+          stringValue: Квартира
+          type: Строка
+        - code: dogovor.vidNedvON1
+          name: 'Предмет ипотеки 1: Вид недвижимости'
+          stringValue: Квартира
+          type: Строка
+        - code: dogovor.ON1.razmer
+          decimalValue: 32
+          name: Размер
+          type: Вещественный
+        - code: dogovor.ON1.stoimRynok
+          decimalValue: 2000000
+          name: 'Предмет ипотеки 1: Рыночная стоимость'
+          type: Вещественный
+        - name: 'Застрахованный 1: Гражданство'
+          code: dogovor.zastr1.subekt.fl.gragdanstvo.name
+          type: Строка
+          stringValue: Россия
+        - name: 'Застрахованный 1: Комбинация рисков'
+          code: dogovor.zastr1KombRiskov
+          type: Строка
+          stringValue: Смерть НСиБ + Инвалидность I или II группы НСиБ

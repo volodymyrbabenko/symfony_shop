@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b45665ad-3401-4221-a725-6659740619eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b45665ad-3401-4221-a725-6659740619eb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5b0472d-109d-4fe8-b822-edc4fc6d0beb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5b0472d-109d-4fe8-b822-edc4fc6d0beb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shop5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,8 +223,17 @@
       <workItem from="1705164071210" duration="3152000" />
       <workItem from="1705174561237" duration="2245000" />
       <workItem from="1705305588460" duration="666000" />
-      <workItem from="1705313003092" duration="681000" />
+      <workItem from="1705313003092" duration="2709000" />
     </task>
+    <task id="LOCAL-00001" summary="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock">
+      <option name="closed" value="true" />
+      <created>1705314078404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705314078404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +272,16 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock" />
   </component>
 </project>

@@ -8,7 +8,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "beberlei/assert": "*",
-        "dadata/dadata-api-bundle": "*",
         "digital-craftsman/cqrs": "^0.12.0",
         "digital-craftsman/ids": "^0.11.0",
         "doctrine/doctrine-bundle": "^2.10",

@@ -5,55 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/cqrs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/cqrs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/IdValueObjectType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/UserIdType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/ChangeCartItemCount/ChangeCartItemCountCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/ChangeCartItemCount/ChangeCartItemCountCommandHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValueObject/ShopCartId.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValueObject/ShopCartIdType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8/storage_v2/_src_/database/app.IXoBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8/storage_v2/_src_/database/app.IXoBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8/storage_v2/_src_/database/app.IXoBAA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8/storage_v2/_src_/database/app.IXoBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8/storage_v2/_src_/database/app.IXoBAA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8/storage_v2/_src_/database/app.IXoBAA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482a472e-e6ad-45a9-ac25-09a64c75dca8/storage_v2/_src_/database/app.IXoBAA/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/app.IXoBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/app.IXoBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/app.IXoBAA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/app.IXoBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/app.IXoBAA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/app.IXoBAA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/app.IXoBAA/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5525dc-aff8-4579-b511-9272b43badf8/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shop2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b45665ad-3401-4221-a725-6659740619eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b45665ad-3401-4221-a725-6659740619eb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5b0472d-109d-4fe8-b822-edc4fc6d0beb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5b0472d-109d-4fe8-b822-edc4fc6d0beb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shop5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20240111083851.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20240111104912.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/ShopCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ShopCart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index/shopCart.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/shopCart.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,34 +180,34 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2atnk3bJmIpxgu07J5zN5ol5sC2" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/_symfony/shop6",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/_symfony/symfony_shop-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="127.0.0.1" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="127.0.0.1" session_id="PHPSTORM">
       <method v="2" />
@@ -271,6 +230,9 @@
       <updated>1705146882398</updated>
       <workItem from="1705146883501" duration="4473000" />
       <workItem from="1705164071210" duration="3152000" />
+      <workItem from="1705174561237" duration="2245000" />
+      <workItem from="1705305588460" duration="666000" />
+      <workItem from="1705313003092" duration="681000" />
     </task>
     <servers />
   </component>

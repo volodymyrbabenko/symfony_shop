@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="File changed:&#10;bundles.php">
+    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="File changed:&#10;config/servives.yaml&#10;&#10;File deleted:&#10;config\dadata.yaml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +226,7 @@
       <workItem from="1705174561237" duration="2245000" />
       <workItem from="1705305588460" duration="666000" />
       <workItem from="1705313003092" duration="2709000" />
-      <workItem from="1705320342696" duration="800000" />
+      <workItem from="1705320342696" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock">
       <option name="closed" value="true" />
@@ -244,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705320509984</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="File changed:&#10;config/servives.yaml&#10;&#10;File deleted:&#10;config\dadata.yaml">
+      <option name="closed" value="true" />
+      <created>1705326370299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705326370299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +302,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock" />
     <MESSAGE value="File changed:&#10;bundles.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="File changed:&#10;bundles.php" />
+    <MESSAGE value="File changed:&#10;config/servives.yaml&#10;&#10;File deleted:&#10;config\dadata.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="File changed:&#10;config/servives.yaml&#10;&#10;File deleted:&#10;config\dadata.yaml" />
   </component>
 </project>

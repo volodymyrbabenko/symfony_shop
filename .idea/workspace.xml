@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="some updates">
-      <change beforePath="$PROJECT_DIR$/.idea/shop5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop5.iml" afterDir="false" />
+    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="add in project files composer.lock and             package-lock.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20240113164830.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/_symfony/shop7",
+    "last_opened_file_path": "E:/_symfony/shop8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -232,6 +230,7 @@
       <workItem from="1705320342696" duration="3231000" />
       <workItem from="1705329080738" duration="537000" />
       <workItem from="1705330867228" duration="1454000" />
+      <workItem from="1705397638501" duration="1449000" />
     </task>
     <task id="LOCAL-00001" summary="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock">
       <option name="closed" value="true" />
@@ -265,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705328567430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add in project files composer.lock and             package-lock.json">
+      <option name="closed" value="true" />
+      <created>1705397854304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705397854304</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add in project files composer.lock and             package-lock.json">
+      <option name="closed" value="true" />
+      <created>1705398489518</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705398489518</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +332,7 @@
     <MESSAGE value="File changed:&#10;bundles.php" />
     <MESSAGE value="File changed:&#10;config/servives.yaml&#10;&#10;File deleted:&#10;config\dadata.yaml" />
     <MESSAGE value="some updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="some updates" />
+    <MESSAGE value="add in project files composer.lock and             package-lock.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="add in project files composer.lock and             package-lock.json" />
   </component>
 </project>

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="add in project files composer.lock and             package-lock.json">
+    <list default="true" id="95bc579c-918b-4bb9-a6f4-f6b739bf17c3" name="Changes" comment="change file assets/bootstrap.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,7 @@
       <workItem from="1705320342696" duration="3231000" />
       <workItem from="1705329080738" duration="537000" />
       <workItem from="1705330867228" duration="1454000" />
-      <workItem from="1705397638501" duration="1449000" />
+      <workItem from="1705397638501" duration="2413000" />
     </task>
     <task id="LOCAL-00001" summary="Files changed:&#10;.gitignore&#10;composer.json&#10;&#10;Files deleted:&#10;composer.lock&#10;package-lock.json&#10;symfony.lock">
       <option name="closed" value="true" />
@@ -280,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705398489518</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change file assets/bootstrap.js">
+      <option name="closed" value="true" />
+      <created>1705399180600</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705399180600</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +340,7 @@
     <MESSAGE value="File changed:&#10;config/servives.yaml&#10;&#10;File deleted:&#10;config\dadata.yaml" />
     <MESSAGE value="some updates" />
     <MESSAGE value="add in project files composer.lock and             package-lock.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="add in project files composer.lock and             package-lock.json" />
+    <MESSAGE value="change file assets/bootstrap.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="change file assets/bootstrap.js" />
   </component>
 </project>
